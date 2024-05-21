@@ -1,0 +1,45 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  background: url("image/bg1.jpg");
+  background-repeat: no-repeat;
+  background-position: initial;
+  background-size: cover;
+}
+#board {
+  width: 540px;
+  height: 580px;
+  /* background-color: blueviolet; */
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  background: url("image/homw.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid whitesmoke;
+  border-radius: 32px;
+}
+#board div {
+  /* board is 540x580 */
+  width: 160px;
+  height: 120px;
+  padding: 10px;
+  margin-top: 10px;
+  background: url("image/pip1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#board div img {
+  width: 65px;
+  height: 85px;
+  margin-right: 30px;
+  margin-top: -19px;
+  margin-top: -44px;
+  padding-right: 6px;
+
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
